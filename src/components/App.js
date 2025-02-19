@@ -10,6 +10,7 @@ const App = () => {
   return (
     <BrowserRouter>
     <div id="main">
+        <div>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="women" element={<Women />}>
@@ -17,6 +18,7 @@ const App = () => {
             </Route>
           </Route>
         </Routes>
+        </div>
     </div>
     </BrowserRouter>
   )
