@@ -5,6 +5,7 @@ const Women = () => {
   return (
     <div>
       <p>Women Items: </p>
+      <nav>
       <ul>
         <li>
           <Link to="Grooming">Grooming</Link>
@@ -19,6 +20,7 @@ const Women = () => {
           <Link to="Jewellery">Jewellery</Link>
         </li>
       </ul>
+      </nav>
 
       <Outlet />
     </div>

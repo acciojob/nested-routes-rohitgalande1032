@@ -9,7 +9,7 @@ import Category from "./Category";
 const App = () => {
   return (
     <BrowserRouter>
-    <div>
+    <div id="main">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="women" element={<Women />}>
